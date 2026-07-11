@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
@@ -85,6 +85,28 @@
 
 <div style="text-align:center;padding:12px 20px 20px;font-size:13px;color:#889">Web Developer: <a href="contactar-desarrollador.html" style="color:inherit;text-decoration:underline">Diego Acosta</a></div>
 
-<script src="js/menu.js"></script>
+<script>
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => { navbar.classList.toggle('scrolled', window.scrollY > 20); }, {passive:true});
+const menuToggle = document.getElementById('menuToggle');
+const mobileMenu = document.getElementById('mobileMenu');
+if (menuToggle) {
+  menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('open');
+    mobileMenu.classList.toggle('open');
+    document.body.style.overflow = mobileMenu.classList.contains('open') ? 'hidden' : '';
+  });
+}
+function closeMenu(){
+  const mt = document.getElementById('menuToggle');
+  const mm = document.getElementById('mobileMenu');
+  if (mt) mt.classList.remove('open');
+  if (mm) mm.classList.remove('open');
+  document.body.style.overflow = '';
+}
+if(!localStorage.getItem('cookies_accepted')){
+  setTimeout(()=>document.getElementById('cookieBar')?.classList.add('show'),800);
+}
+</script>
 </body>
 </html>
