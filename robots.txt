@@ -1,0 +1,18 @@
+# Taxi Badalona Aeropuerto - robots.txt
+User-agent: *
+Allow: /
+
+# Archivos y directorios bloqueados
+Disallow: /seo-hidden.html
+Disallow: /fix.ps1
+Disallow: /fix_encoding.ps1
+Disallow: /.env
+Disallow: /.env.*
+Disallow: /.git/
+Disallow: /.htaccess
+
+# Sitemap
+Sitemap: https://taxibadalonaaeropuerto.com/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
