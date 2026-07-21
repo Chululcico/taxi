@@ -1,12 +1,12 @@
-# ============================================
-# Taxi Badalona Aeropuerto - validacion de entorno
-# ============================================
-# Ejecutar antes de cada deploy para verificar que todas
-# las variables de entorno necesarias estan configuradas.
-# 
-# Uso: node validate-env.js
-# Requiere: Node.js 14+
-# ============================================
+// ============================================
+// Taxi Badalona Aeropuerto - validacion de entorno
+// ============================================
+// Ejecutar antes de cada deploy para verificar que todas
+// las variables de entorno necesarias estan configuradas.
+// 
+// Uso: node validate-env.js
+// Requiere: Node.js 14+
+// ============================================
 
 const fs = require('fs');
 const path = require('path');
