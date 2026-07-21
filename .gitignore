@@ -59,6 +59,10 @@ build/
 fix.ps1
 fix_encoding.ps1
 
+# --- Herramientas locales ---
+tools/
+*.exe
+
 # --- Seguridad ---
 *.pem
 *.key
