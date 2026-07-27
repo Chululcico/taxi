@@ -514,7 +514,8 @@ footer a:hover{color:var(--yellow)}
   .section-head{margin-bottom:28px}
   
   /* SERVICE CARDS */
-  .service-card{padding:20px 18px;gap:14px}
+  .service-card{padding:20px 18px;gap:14px;flex-direction:column;align-items:stretch}
+  .service-card .service-icon{align-self:flex-start}
   .service-icon{width:44px;height:44px;border-radius:12px}
   .service-icon svg{width:18px;height:18px}
   .service-card h3{font-size:15px}
@@ -566,6 +567,9 @@ footer a:hover{color:var(--yellow)}
   /* BUTTONS */
   .btn{width:100%;justify-content:center;padding:14px 20px;font-size:14px}
   .btn-outline+.btn-whatsapp,.btn-whatsapp+.btn-outline{margin-left:0!important;margin-top:8px}
+
+  /* IMAGE OPTIMIZATION */
+  .detail-img{aspect-ratio:auto}
   
   /* FOOTER */
   footer{padding:40px 0 80px}
