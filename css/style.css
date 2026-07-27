@@ -186,6 +186,7 @@ section{padding:80px 0}
 /* ===== SERVICES ===== */
 #servicios{background:var(--gray-light);position:relative}
 .services-grid{display:grid;grid-template-columns:1fr;gap:16px}
+.empresas-grid{grid-template-columns:repeat(2,1fr);max-width:600px;margin:0 auto}
 .service-card{
   background:#fff;border-radius:var(--radius-lg);padding:28px 24px;
   display:flex;gap:18px;align-items:flex-start;
@@ -570,6 +571,7 @@ footer a:hover{color:var(--yellow)}
 
   /* IMAGE OPTIMIZATION */
   .detail-img{aspect-ratio:auto}
+  .empresas-grid{grid-template-columns:1fr!important}
   
   /* FOOTER */
   footer{padding:40px 0 80px}
