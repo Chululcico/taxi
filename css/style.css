@@ -19,7 +19,7 @@
   --font:'Plus Jakarta Sans',system-ui,-apple-system,sans-serif;
   --font-display:'Plus Jakarta Sans',system-ui,sans-serif;
   --max-w:1120px;
-  --nav-h:100px;
+  --nav-h:110px;
 }
 html{scroll-behavior:smooth;-webkit-tap-highlight-color:transparent}
 body{
@@ -61,7 +61,7 @@ ul{list-style:none}
   height:100%;
 }
 .navbar-brand{display:flex;align-items:center;gap:12px}
-.navbar-brand img{height:88px;width:auto}
+.navbar-brand img{height:96px;width:auto;object-fit:contain}
 .navbar-links{display:none;gap:6px}
 .navbar-links a{
   padding:8px 16px;border-radius:8px;
@@ -492,7 +492,7 @@ footer a:hover{color:var(--yellow)}
 @media(max-width:767px){
   /* NAVBAR */
   .navbar{height:72px}
-  .navbar-brand img{height:60px}
+  .navbar-brand img{height:56px}
   .navbar-cta{gap:6px}
   .btn-nav{font-size:0;padding:8px 12px;min-width:0}
   .btn-nav svg{width:20px;height:20px}
