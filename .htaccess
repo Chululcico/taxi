@@ -83,7 +83,7 @@ Options -Indexes
     </IfModule>
 </IfModule>
 
-# Bloquear IPs con太多 peticiones (configurable via .env en deploy)
+# Bloquear IPs con demasiadas peticiones (configurable via .env en deploy)
 # <IfModule mod_rewrite.c>
 #     RewriteCond %{REMOTE_ADDR} ^xx\.xx\.xx\.xx$
 #     RewriteRule .* - [F,L]
