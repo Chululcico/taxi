@@ -644,6 +644,7 @@ footer a:hover{color:var(--yellow)}
   .hero-grid{grid-template-columns:1.1fr 0.9fr;align-items:center;gap:60px}
   .hero-stats{gap:40px}
   .services-grid{grid-template-columns:repeat(3,1fr)}
+  .empresas-grid{grid-template-columns:repeat(2,1fr)}
   .vehiculos-grid{grid-template-columns:repeat(3,1fr)}
   .destinos-grid{grid-template-columns:repeat(4,1fr)}
   .gallery-grid{grid-template-columns:repeat(4,1fr)}
