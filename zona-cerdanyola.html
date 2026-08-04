@@ -13,7 +13,41 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="favicon-64.png">
-</head>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TaxiService",
+  "name": "Taxi en Cerdanyola del Vallès",
+  "description": "Taxi oficial AMB 24 horas en Cerdanyola del Vallès. Traslados al aeropuerto de Barcelona El Prat sin pago anticipado. Reserva ahora.",
+  "url": "https://taxibadalonaaeropuerto.com/zona-cerdanyola.html",
+  "provider": {
+    "@type": "Taxi",
+    "name": "Taxi Badalona Aeropuerto",
+    "telephone": "+34628175162",
+    "address": {"@type": "PostalAddress", "addressLocality": "Badalona", "addressCountry": "ES"},
+    "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "bestRating": "5", "reviewCount": "70"}
+  },
+  "areaServed": {"@type": "City", "name": "Cerdanyola del Vallès"},
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  }],
+  "availableLanguage": ["es","ca"]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://taxibadalonaaeropuerto.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Cobertura", "item": "https://taxibadalonaaeropuerto.com/cobertura.html"},
+    {"@type": "ListItem", "position": 3, "name": "Taxi en Cerdanyola del Vallès", "item": "https://taxibadalonaaeropuerto.com/zona-cerdanyola.html"}
+  ]
+}
+</script></head>
 <body>
 <nav class="navbar" id="navbar">
   <div class="container">
@@ -55,6 +89,9 @@
   <div class="container">
     <img src="images/logo png.png" alt="" class="logo-big">
    <h1>Taxi en Cerdanyola del Vallès</h1>
+    <nav aria-label="Ruta de navegación" style="margin-top:10px;font-size:13px;color:#94a3b8">
+      <a href="index.html" style="color:inherit;text-decoration:none">Inicio</a><span style="margin:0 6px">&#8250;</span><a href="cobertura.html" style="color:inherit;text-decoration:none">Zonas</a><span style="margin:0 6px">&#8250;</span><span>Taxi en Cerdanyola del Vallès</span>
+    </nav>
   </div>
 </div>
 <section>
@@ -85,6 +122,34 @@
     <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:8px">
       <a class="btn btn-whatsapp" href="https://wa.me/34628175162?text=Hola%2C%20quiero%20reservar%20un%20taxi%20en%20Cerdanyola%20del%20Vall%C3%A8s" target="_blank" rel="noopener">Reservar por WhatsApp</a>
       <a class="btn btn-outline" href="tel:+34628175162">Llamar: 628 17 51 62</a>
+    </div>
+        <div style="margin-top:16px">
+      <h3 style="margin:0 0 12px;font-size:18px;color:var(--dark)">Otras zonas y ciudades</h3>
+      <div style="display:flex;flex-wrap:wrap;gap:8px">
+      <a href="zona-aeropuerto.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Aeropuerto de Barcelona-El Prat</a>
+      <a href="zona-badalona.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi Badalona</a>
+      <a href="zona-barcelona.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi Barcelona</a>
+      <a href="zona-cornella.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi Cornellà de Llobregat</a>
+      <a href="zona-el-masnou.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi El Masnou</a>
+      <a href="zona-esplugues.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi Esplugues de Llobregat</a>
+      <a href="zona-girona.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Aeropuerto de Girona</a>
+      <a href="zona-hospitalet.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi L'Hospitalet de Llobregat</a>
+      <a href="zona-lleida.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Aeropuerto de Lleida</a>
+      <a href="zona-montcada.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi Montcada i Reixac</a>
+      <a href="zona-montgat.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi Montgat</a>
+      <a href="zona-premia.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi Premià de Mar</a>
+      <a href="zona-reus.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Aeropuerto de Reus</a>
+      <a href="zona-santa-coloma.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi Santa Coloma de Gramenet</a>
+      <a href="zona-sant-adria.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi Sant Adrià de Besòs</a>
+      <a href="zona-sant-andreu-barca.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi Sant Andreu de la Barca</a>
+      <a href="zona-sant-cugat.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi Sant Cugat del Vallès</a>
+      <a href="zona-sant-feliu.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi Sant Feliu de Llobregat</a>
+      <a href="zona-sant-joan-despi.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi Sant Joan Despí</a>
+      <a href="zona-sant-just.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi Sant Just Desvern</a>
+      <a href="zona-tiana.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi Tiana</a>
+      <a href="zona-torrelles.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi Torrelles de Llobregat</a>
+      <a href="zona-vilassar.html" class="btn btn-outline" style="margin:0;font-size:13px;padding:8px 12px">Taxi Vilassar de Mar</a>
+      </div>
     </div>
     <div style="text-align:center;margin-top:8px">
       <a href="cobertura.html" class="btn btn-outline">&larr; Volver a cobertura</a>
